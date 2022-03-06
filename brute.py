@@ -43,7 +43,7 @@ email = input("enter email of target:")
 print("attack will start soon please be sure the email input is correct",email +"i")
 i=0
 while FileType :
-    password=fileinput.readline().strip()
+    password=fileinput.readline()
     i=+1
 if len(password) < 10:
    Continue
