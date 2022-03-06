@@ -6,7 +6,7 @@ import sys
 from argparse import FileType
 from ast import Break, Continue, If, Try
 from math import pi
-from tkinter import BROWSE
+import BROWSE
 from tokenize import String
 import urllib
 from nturl2path import url2pathname
