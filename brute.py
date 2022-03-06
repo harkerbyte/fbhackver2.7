@@ -50,7 +50,7 @@ if len(password) < 10:
    print=str(i) +" : ",password
 response = webbrowser.open(urlopen);
 
-Try;
+Try
 If; response; code == 200
 webbrowser.select_form(nr=o)
 webbrowser.form['email']=email
