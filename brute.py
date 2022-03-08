@@ -44,7 +44,7 @@ email = input("enter email of target:")
 print("attack will start soon please be sure the email input is correct",email+"🤔")
 i=0
 while FileType :
-    password = fileinput.readline()
+    password = file.readline()
 if len(password) < 10:
    Continue
 print(password)
