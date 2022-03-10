@@ -45,9 +45,9 @@ print("attack will start soon please be sure the email input is correct",email+"
 i=0
 while FileType :
     password = file.readline()
-    Continue
 if len(password) < 10:
-     print(password)
+    Continue
+print(password)
 response = webbrowser.open(urlopen);
 
 Try
