@@ -44,7 +44,7 @@ email = input("enter email of target:")
 print("attack will start soon please be sure the email input is correct",email+"")
 i=0
 while FileType :
-    password = file.readline()ss
+    password = file.readline()
 print(password)
 response = webbrowser.open(urlopen);
 
