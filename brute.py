@@ -1,5 +1,6 @@
 import sys 
 import os
+from tkinter import BROWSE
 
 
 try:
@@ -44,8 +45,11 @@ email = input("enter email of target:")
 print("attack will start soon please be sure the email input is correct",email+"")
 i=0
 while FileType :
-    password = file.readline()
-print(password)
+    password=file.readline().strip()
+i+=1
+if len(password) < 10:
+  Continue
+print = str(i) +" : ",password
 response = webbrowser.open(urlopen);
 
 Try
