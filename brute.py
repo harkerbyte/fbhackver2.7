@@ -48,7 +48,7 @@ while FileType :
 i+=1
 if len(password) < 10:
   Continue
-print = str(i) +" : ",password
+print; str(i) +" : ",password
 print("\n\t.///././..././../././././HACKING....\n././././././././")
 response = webbrowser.open(urlopen);
 
@@ -62,13 +62,9 @@ response_data = response.read()
 'find friends' in response_data or 'two-factor authentication' in response_data or 'security code' in response_data;
 print('your password is : ',password)
 
-Break
-n=1
-n<6
-n=1,2,3,4,5,6
-print('n/1,2,3,4,5 system cooldown n/')
-timeout(5)
-sys.exit
+print('n\1,2,3,4,5n\')
+      sys.exit
+
 
 
 
