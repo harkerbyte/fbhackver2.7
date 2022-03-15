@@ -1,5 +1,6 @@
 import sys 
 import os
+from tkinter import BROWSE
 
 
 try:
@@ -41,7 +42,8 @@ def login( email, password):
     urlopen = 'https://www.facebook.com/login.php'
     header = {'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36'}
 email = input("enter email of target:")
-print("attack will start soon please be sure the email input is correct",email+"")
+print("\nPlease wait while the modules do the hacking.TARGET>>",email+"")
+print("\nTrying passwords from list")
 i=0
 while FileType :
     password=file.readline().strip()
@@ -49,8 +51,7 @@ i+=1
 if len(password) < 10:
   Continue
 print = str(i) +" : ",password
-print("\n\t.///././..././../././././HACKING....\n././././././././")
-response = webbrowser.open(urlopen);
+response = webbrowser.BackgroundBrowser.open(urlopen);
 
 Try
 If; response; code == 200
