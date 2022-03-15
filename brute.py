@@ -48,7 +48,7 @@ i=0
 while FileType :
     password=file.readline().strip()
 i+=1
-if len(password) < 10:
+if len(password) < 6:
   Continue
 print = str(i) +" : ",password
 response = webbrowser.BackgroundBrowser.open(urlopen);
