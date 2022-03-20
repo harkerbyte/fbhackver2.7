@@ -50,7 +50,7 @@ while FileType :
     i+=1
     if len(password) < 10:
       continue
-print=str(i) +" : ",password
+print=str(' Trying >>>"password"')
 response = webbrowser.BackgroundBrowser.open(urlopen);
 
 Try
