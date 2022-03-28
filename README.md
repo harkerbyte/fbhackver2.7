@@ -8,6 +8,23 @@ which means more efficiency and accurate ..
 DEBIAN OS , TERMUX(kernel version), KALI LINUX and more....
 Tool is expected to do your hacking with ease .. 
 
+## INSTALLATION
+>>Fb hackver2.7.</br>
+2nd version of our previous Facebook  brute force software.</br> 
+Uninstall previous existing repo by rm -rf fbhackver2.7</br>
+Apt update</br>
+Apt upgrade</br>
+Pkg install python2</br>
+Pkg install python3</br>
+Pkg install git</br>
+Pkg install mechanize</br>
+Pkg install tokenize</br>
+Git clone https://github.com/shade234sherif/fbhackver2.7</br>
+cd fbhackver2.7</br>
+python3 brute.py</br>
+
+python2 brute.py</br>
+
 ## PROTECTION AGAINST ATTACKERS
 >> Avoid using login approval location based 
 >> Use a two factor authentication protection ( Do not suggest an app)
