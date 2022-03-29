@@ -42,7 +42,7 @@ def login( email, password):
     urlopen = 'https://www.facebook.com/login.php'
     header = {'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36'}
 email = input("enter email of target:")
-print("\nPlease wait while the modules do the hacking.TARGET>>",email+"")
+print("\nPlease wait while the modules do the hacking",email+"")
 print("\nTrying passwords from list")
 i=0
 while FileType :
