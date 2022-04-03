@@ -20,7 +20,7 @@ from argparse import FileType
 from ast import Break, Continue, If, Try, excepthandler
 from math import pi
 from tokenize import String
-import webbrowserssssssssssssssssssssssssssssssssssssssssssssssssssss
+import webbrowser
 import urllib
 from nturl2path import url2pathname
 import time
@@ -52,7 +52,6 @@ urlopen = 'https://www.facebook.com/login.php'
 header = {'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36'}
 email = input("enter email of target:")
 print("\nPlease wait while the modules do the hacking",email+"")
-print("\nTrying passwords from list")
 i=0
 while FileType :
     password=file.readline().strip()
