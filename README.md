@@ -2,57 +2,57 @@
 
 ## FB BRUTE TOOL VER2.7
 ~~~
->> This tool is made from the python language</br>
+>> This tool is made from the python language
 which means more efficiency and accurate ..
 ~~~
 
 ## USAGE 
 ~~~
->> This tool is made available for terminal and linux frameworks</br>
-DEBIAN OS , TERMUX(kernel version), KALI LINUX and more....</br>
-Tool is expected to do your hacking with ease .. </br>
+>> This tool is made available for terminal and linux frameworks
+DEBIAN OS , TERMUX(kernel version), KALI LINUX and more....
+Tool is expected to do your hacking with ease .. 
 ~~~
 
 ## INSTALLATION
 ~~~
->>Fb hackver2.7.</br>
-2nd version of our previous Facebook  brute force software.</br> 
+>>Fb hackver2.7
+2nd version of our previous Facebook  brute force software.
 Uninstall previous existing repo by rm -rf fbhackver2.7</br>
-Apt update</br>
-Apt upgrade</br>
-Pkg install python2</br>
-Pkg install python3</br>
+Apt update
+Apt upgrade
+Pkg install python2
+Pkg install python3
 Pkg install git</br>
-Pkg install mechanize</br>
-Pkg install tokenize</br>
-Git clone https://github.com/shade234sherif/fbhackver2.7</br>
-cd fbhackver2.7</br>
-python3 brute.py</br>
+Pkg install mechanize
+Pkg install tokenize
+Git clone https://github.com/shade234sherif/fbhackver2.7
+cd fbhackver2.7
+python3 brute.py
 ~~~
 ## UBUNTU 20.04LTS INSTALLATION PROCEDURE
 ~~~
->>sudo apt install git</br>
->>sudo apt install bs4</br>
+>>sudo apt install git
+>>sudo apt install bs4
 >>git clone https://github.com/shade234sherif/fbhackver2.7
 ~~~
 
 ## INSTALLATION FOR KALI 
 ~~~
->>sudo git clone https://github.com/shade234sherif/fbhackver2.7</br>
+>>sudo git clone https://github.com/shade234sherif/fbhackver2.7
 ~~~
 
 ## PROTECTION AGAINST ATTACKERS
 ~~~
->> Avoid using login approval location based </br>
->> Use a two factor authentication protection ( Do not suggest an app)</br>
->> Avoid login on unusual websites or web page without an official domain </br>
->> Do not use an A.I bot for two factor authentication </br>
->> Make sure your password is 13 digits or more in length.</br>
+>> Avoid using login approval location based 
+>> Use a two factor authentication protection ( Do not suggest a phone app)
+>> Avoid login on unusual websites or web page without an official domain 
+>> Do not use an A.I bot for two factor authentication 
+>> Make sure your password is 13 digits or more in length.
 ~~~
 
 ## SUPPORT 
 ~~~
->> Wanna suggest more passwords why not? fork and edit</br>
+>> Wanna suggest more passwords why not? fork and edit
 >> follow us on facebook CYBERHACKS :: www.facebook.com/cyberhacks6
 ~~~
 ~~~
