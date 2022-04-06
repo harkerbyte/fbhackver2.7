@@ -48,11 +48,11 @@ print("\003[2;43m NO INTERNET CONNECTION OR CONNECTION TIMEOUT\033[0;0m")
 
 i=0
 while file:
-    password=open('password.txt','o','r' )
+    passwords=open('password.txt','o','r' )
     password=file.readline().strip()
     i+=1
-    if len(password) < 10:
-     print=str(i) +" : ",password
+    if len(passwords) < 10:
+     print=str(i) +" : ",passwords
     continue
 request = webbrowser.open('urlopen')
 Try
@@ -64,7 +64,7 @@ webbrowser.form['pass']=password
 response = webbrowser.submit()
 response_data = response.read()
 'find friends' in response_data or 'two-factor authentication' in response_data or 'security code' in response_data;
-print("your password is : ",password)
+print("your password is : ",passwords)
 Break
 
 sys.exit
