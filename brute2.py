@@ -3,7 +3,7 @@ import sys
 if sys.version_info[0] !=2: 
 	print('''--------------------------------------
 	REQUIRED PYTHON 2.x
-	use: python fb2.py
+	use: python brute2.py
 --------------------------------------
 			''')
 	sys.exit()
