@@ -4,13 +4,14 @@ import os
 import time
 import mechanize 
 if sys.version_info[0] !=3:
-   print(' Required version of python3 .please install python3 then restart')
+   print(' Required version of python3 .follow the usage procedures else contact the dev')
+   sys.exit()
 try:
     import tokenize
     
 except:
     print('\n\tplease do install tokenize\n')
-sys.exit 
+sys.exit() 
 import code
 import fileinput
 
