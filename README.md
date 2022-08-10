@@ -18,16 +18,19 @@ Tool is expected to do your hacking with ease ..
 >>Fb hackver2.7
 2nd version of our previous Facebook  brute force software.
 Uninstall previous existing repo by rm -rf fbhackver2.7</br>
-Apt update
-Apt upgrade
-Pkg install python2
-Pkg install python3
-Pkg install git</br>
-Pkg install mechanize
-Pkg install tokenize
-Git clone https://github.com/shade234sherif/fbhackver2.7
+
+apt update
+apt upgrade
+pkg install python2
+pkg install python3
+pkg install git
+pkg install mechanize
+pkg install tokenize
+git clone https://github.com/shade234sherif/fbhackver2.7
 cd fbhackver2.7
 python3 brute.py
+or 
+python3 brute2.py
 ~~~
 ## UBUNTU 20.04LTS INSTALLATION PROCEDURE
 ~~~
