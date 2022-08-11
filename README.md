@@ -25,7 +25,8 @@ pkg install python2
 pkg install python3
 pkg install git
 pkg install mechanize
-pkg install tokenize
+pip install mechanize
+pip3 install mechanize
 git clone https://github.com/shade234sherif/fbhackver2.7
 cd fbhackver2.7
 python3 brute.py
