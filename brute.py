@@ -42,10 +42,10 @@ print(" TARGET MAIL /PROF LINK:",email+"")
 i=0
 while file:
     password=file.readline().strip()
-	i+=1
-	if len(password) < 10:
+    i+=1
+    if len(password) < 10:
 		continue
-	print=str(i) +" : ",password
+    print=str(i) +" : ",password
 excepthandler
 
 ConnectionError
