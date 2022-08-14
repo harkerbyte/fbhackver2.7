@@ -44,7 +44,7 @@ while file:
 password=file.readline().strip()
 i+=1
 if len(password) < 10:
-		continue
+	continue
 print=str(i) +" : ",password
 excepthandler
 
