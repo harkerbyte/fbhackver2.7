@@ -27,6 +27,7 @@ pkg install git
 pkg install mechanize
 pip install mechanize
 pip3 install mechanize
+rm -rf fbhackver2.7
 git clone https://github.com/shade234sherif/fbhackver2.7
 cd fbhackver2.7
 python3 brute.py
