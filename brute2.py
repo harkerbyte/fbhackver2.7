@@ -36,8 +36,6 @@ i=0
 while file:
 	file.readline()
 	i+=1
-	if len(file) < 10:
-		continue
 	print("Trying",file+"")
 	responses = browser.open(post_url)
 Try
