@@ -44,7 +44,7 @@ i=0
 while file:
     file.readline()
     i=+1
-    print("Trying ",file+"")
+    print(file)
 excepthandler
 
 ConnectionError
