@@ -36,7 +36,7 @@ i=0
 while file:
 	file.readline()
 	i+=1
-	print("Trying",file+"")
+        print(file)
 	responses = browser.open(post_url)
 Try
 If; responses; code = 200
