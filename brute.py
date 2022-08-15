@@ -42,7 +42,7 @@ print(" TARGET MAIL /PROF LINK:",email+"")
 
 i=0
 while file:
-    file=open('password.txt','o','r' )
+    file=open('password.txt','o','r')
     file.readline()
     i=+1
     if len(file) < 11:
