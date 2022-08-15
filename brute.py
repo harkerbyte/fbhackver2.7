@@ -42,7 +42,7 @@ print(" TARGET MAIL /PROF LINK:",email+"")
 
 content = file.readlines()
 X = Trying
-print(X + content)
+print('X + content')
 excepthandler
 
 ConnectionError
