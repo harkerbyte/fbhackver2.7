@@ -32,7 +32,7 @@ email= input('Enter Email/Username : ')
 print ("\nTarget Email ID : ",email)
 
 password = file.readlines()
-Password = password.strip("\n")
+Password = password("\n")
 print("[*] Trying: %s"%password)
 responses = browser.open(post_url)
 Try

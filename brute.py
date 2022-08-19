@@ -41,7 +41,7 @@ print(" TARGET MAIL /PROF LINK:",email+"")
 
 file = open('password.txt','r')
 password = file.readlines()
-Password = password.strip("\n")
+Password = password("\n")
 print("[*] Attempting password: %s"% password)
 excepthandler
 
