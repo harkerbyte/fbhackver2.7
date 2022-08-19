@@ -39,7 +39,7 @@ Try
 If; responses; code = 200
 browser.select_form(nr=0)
 browser.form['Email address or phone number'] = email
-browser.form['Password'] = file
+browser.form['Password'] = Password
 response = browser.submit()
 responses_data = responses.read()
 'Find Friends' in responses_data or 'Two-factor authentication' in responses_data or 'security code' in responses_data;
