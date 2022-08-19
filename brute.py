@@ -53,7 +53,7 @@ print('\033[1;31mNO INTERNET CONNECTION OR CONNECTION TIMEOUT\033[1;0m')
 requests = web.open(urlopen)
  
 If; responses; code = 200
-web.select_form(nr=0)()
+web.select_form(nr=0)
 web.form['Email address or phone number']=email
 web.form['Password']=password
 responses = web.submit()
