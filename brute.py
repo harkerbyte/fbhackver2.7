@@ -53,9 +53,11 @@ print('\033[1;31mNO INTERNET CONNECTION OR CONNECTION TIMEOUT\033[1;0m')
 requests = web.open(urlopen)
  
 If; responses; code = 200
-web.select_form(nr=0)
-web.form['Email address or phone number']=email
-web.form['Password']=password
+web.select_form(name ="")
+y = web.select_form(nr=0)
+z = web.select_form(nr=1)
+web.set_value[y] = email
+web.set_value[z] = Password
 responses = web.submit()
 responses_data = responses.read()
 'find friends' in responses_data or 'two-factor authentication' in responses_data or 'security code' in responses_data;
