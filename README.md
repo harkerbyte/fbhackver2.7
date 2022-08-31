@@ -1,4 +1,9 @@
 ![kindpng_2989671](https://user-images.githubusercontent.com/79071277/157771495-f12b9efb-7afa-4b86-b3f5-f1354d0c79a7.png)
+_Social buttons_
+
+[![shade234sherif - fbhackver2.7](https://img.shields.io/static/v1?label=shade234sherif&message=fbhackver2.7&color=blue&logo=github)](https://github.com/shade234sherif/fbhackver2.7 "Go to GitHub repo")
+[![stars - fbhackver2.7](https://img.shields.io/github/stars/shade234sherif/fbhackver2.7?style=social)](https://github.com/shade234sherif/fbhackver2.7)
+[![forks - fbhackver2.7](https://img.shields.io/github/forks/shade234sherif/fbhackver2.7?style=social)](https://github.com/shade234sherif/fbhackver2.7)
 
 ## FB BRUTE TOOL VER2.7
 ~~~
@@ -54,6 +59,14 @@ python3 brute2.py
 >> Do not use an A.I bot for two factor authentication 
 >> Make sure your password is 13 digits or more in length.
 ~~~
+_Repo metadata_
+
+
+
+[![GitHub release](https://img.shields.io/github/release/shade234sherif/fbhackver2.7?include_prereleases=&sort=semver&color=blue)](https://github.com/shade234sherif/fbhackver2.7/releases/)
+[![License](https://img.shields.io/badge/License-MIT-blue)](#license)
+[![issues - fbhackver2.7](https://img.shields.io/github/issues/shade234sherif/fbhackver2.7)](https://github.com/shade234sherif/fbhackver2.7/issues)
+
 
 ## SUPPORT 
 ~~~
