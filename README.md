@@ -69,10 +69,11 @@ _Repo metadata_
 
 
 ## SUPPORT 
-~~~
->> Wanna suggest more passwords why not? fork and edit
->> follow us on facebook CYBERHACKS :: www.facebook.com/cyberhacks6
-~~~
+
+
+* <a href=https://facebook.com/cyberhacks6>Facebook page</a>
+* <a href=https://facebook.com/shade234sherif>Main fb acc</a>
+
 ~~~
 >> CYBERNETICS                  C7B3RN3TI6S
 ~~~
