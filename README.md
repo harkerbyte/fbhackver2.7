@@ -70,10 +70,7 @@ _Repo metadata_
 
 ## SUPPORT 
 
-
-* <a href=https://facebook.com/cyberhacks6>Facebook page</a>
-* <a href=https://facebook.com/shade234sherif>Main fb acc</a>
-
+<a href = https://facebook.com/cyberhacks6>![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=Facebook&logoColor=white)</a>
 ~~~
 >> CYBERNETICS                  C7B3RN3TI6S
 ~~~
