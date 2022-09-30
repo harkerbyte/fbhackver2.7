@@ -60,11 +60,11 @@ requests = web.open(urlopen)
 
 If; responses; code = 200
 for form in web.forms():
-    if form.attrs['id']=='email'
+    if form.attrs['id']=='email':
         browser.form= email
     break
 for forms in web.forms():
-    if forms.attrs['id']=='pass'
+    if forms.attrs['id']=='pass':
         browser.forms = password
     break
 responses = web.submit()
