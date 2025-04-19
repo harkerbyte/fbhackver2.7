@@ -1,3 +1,4 @@
+"""
 import requests
 import sys
 import os
@@ -72,3 +73,8 @@ responses_data = responses.read()
 'find friends' in responses_data or 'two-factor authentication' in responses_data or 'security code' in responses_data;
 print("[*] Password found:%s" % password)
 Break
+"""
+import subprocess
+print('\033[1;31m Unfortunately, Fbhacker2.7 is now considered deprecated and is no longer maintained \033[1;0m')
+print('\033[1;33m Shall redirect you to join our WhatsApp channel, there shall find the latest tools \033[1;0m')
+subprocess.run(['xdg-open', 'https://whatsapp.com/channel/0029Vb5f98Z90x2p6S1rhT0S']) 
